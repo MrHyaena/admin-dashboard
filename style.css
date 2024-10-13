@@ -1,11 +1,18 @@
+@font-face {
+  font-family: Roboto;
+  src: url(Roboto-Light.ttf);
+}
+
 body {
   margin: 0px;
   --my-gap: 20px;
   --blue-col: rgb(30, 162, 223);
+  font-family: Roboto;
 }
 
 p {
   margin: 0;
+  color: rgb(112, 112, 112);
 }
 
 h1,
@@ -35,7 +42,7 @@ h3 {
   background-color: var(--blue-col);
   display: grid;
   align-content: start;
-  padding: 20px;
+  padding: 30px;
   gap: 30px;
 }
 
@@ -139,6 +146,10 @@ li {
 h3 {
   padding: 0px;
   margin: 0px;
+}
+
+h2 {
+  font-size: 23px;
 }
 
 .iconsCard {
